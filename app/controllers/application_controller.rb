@@ -6,6 +6,11 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/" do
-  	erb :index
+    erb :index
+    #"Mishalaka"
+  end
+  
+  get "/dog" do
+    "Praise Gilgamesh (just testing out adding routes)"
   end
 end
